@@ -11,7 +11,7 @@ export default {
   name: "TabBarItem",
   props: {
     path: String,
-    style: {
+    propStyle: {
       type: String,
       default: '#ff5777'
     }
@@ -25,7 +25,7 @@ export default {
       return this.$route.path.indexOf(this.path) !== -1
     },
     styleActive() {
-      return this.isActive ? {color: this.style} : {}
+      return this.isActive ? {color: this.propStyle} : {}
     }
   },
   methods: {
@@ -53,3 +53,4 @@ export default {
 }
 
 </style>
+

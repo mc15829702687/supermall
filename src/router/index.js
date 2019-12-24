@@ -2,10 +2,10 @@ import VueRouter from 'vue-router'
 import Vue from 'vue'
 
 // 导入各页面
-import Home from 'components/home/Home'
-import Cart from 'components/cart/Cart'
-import Category from 'components/category/Category'
-import Profile from 'components/profile/Profile'
+import Home from 'views/home/Home'
+import Cart from 'views/cart/Cart'
+import Category from 'views/category/Category'
+import Profile from 'views/profile/Profile'
 
 
 // 1. 使用插件

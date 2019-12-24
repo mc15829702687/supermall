@@ -9,7 +9,8 @@ module.exports = {
         'assets': '@/assets',
         'network': '@/network',
         'views': '@/views',
-        'router': '@/router'
+        'router': '@/router',
+        'json': '@/json'
       }
     }
   }
